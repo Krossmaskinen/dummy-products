@@ -1,38 +1,19 @@
-# sv
+## Install
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+`npm i`
 
-## Creating a project
+## How to run
 
-If you're seeing this, you've probably already done this step. Congrats!
+`npm run dev`
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Tech used
 
-# create a new project in my-app
-npx sv create my-app
-```
+- Svelte/kit
+- TailwindCSS
+- DaisyUI
+- Typescript
+- That's pretty much it
 
-## Developing
+## Time
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+About 1.5h
